@@ -1,0 +1,50 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+#app {
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  border: 1px solid #ccc;
+  display: flex;
+  margin-top: 80px;
+}
+
+.left {
+  flex-basis: 200px;
+  background-color: rgb(163, 219, 233);
+}
+
+.content {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.list {
+  height: 400px;
+  overflow: auto;
+}
+
+.inner {
+  height: 1000px;
+  background-color: #dfd;
+}
+
+.btn {
+  width: 70px;
+  height: 24px;
+}
+
+.btn-remove {
+  margin-left: 20px;
+}
+
+.btn-add {
+  margin-left: 62px;
+}
